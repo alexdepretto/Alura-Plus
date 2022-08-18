@@ -1,0 +1,53 @@
+
+#main > .container {
+  height: 75vh;
+}
+
+.container_descricao {
+  padding: 2em;
+}
+
+.secundario {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.secundario_imagem { width: 80%; }
+
+.descricao_titulo {
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--branco);
+  margin-bottom: 0.2em;
+}
+
+.descricao_texto {
+  color: var(--cinza);
+  text-align: justify;
+}
+
+.secundario_botao {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.dispositivos {
+  text-align: center;
+}
+
+.dispositivos_titulo {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.dispositivos_lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 5em 0;
+}
+
+.dispositivos_lista_titulo {
+  font-size: 32px;
+  color: var(--branco);
+}

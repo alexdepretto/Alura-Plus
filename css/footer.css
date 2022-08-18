@@ -1,0 +1,35 @@
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 5em 3em;
+}
+
+.footer > * { margin: 1em 0; }
+
+.footer_imagem { width: 120px; }
+
+.footer_lista {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer_lista_link a {
+  text-decoration: none;
+  color: var(--branco);
+  margin-left: 1em;
+}
+
+.footer_texto {
+  color: var(--cinza);
+  font-size: 15px;
+}
+
+.footer_lista_link a:hover { color: var(--azul); }
+
+.footer_lista_link a:active { color: purple; }

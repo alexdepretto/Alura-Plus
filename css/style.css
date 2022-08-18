@@ -1,0 +1,28 @@
+
+:root {
+    --branco: #FFFFFF;
+    --cinza: #C0C0C0;
+    --azul: #167BF7;
+    --preto: #00030C;
+    --fonte: 'Inter';
+    --azulClaro: #3c92fa;
+}
+
+body {
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container_botao:hover {
+    background-color: var(--azulClaro);
+    color: var(--preto);
+}
