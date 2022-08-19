@@ -9,4 +9,4 @@ Design Responsivo ainda não está pronto.
 (Inglês / English)
 Web Page Project using HTML, CSS, Flexbox and Grid.
 
-REsponsive Design is not ready yet.
+Responsive Design is not ready yet.
